@@ -1,0 +1,66 @@
+.shopping-greeting {
+    width: 80%;
+    height: 870px;
+    margin: auto;
+    padding: 76px 0 0 120px;
+    border-radius: 60px;
+    background-color: #f0f0f0;
+}
+
+.shopping-greeting__promo {
+    height: 794px;
+    background: url(/assets/images/promo-model-image.png) no-repeat;
+    background-size: 90%;
+    background-position: 400px 100%;
+}
+
+.shopping-greeting__title {
+    position: relative;
+    width: 500px;
+    font-size: 96px;
+    text-transform: uppercase;
+    line-height: 120px;
+    font-weight: 900;
+    z-index: 5;
+}
+
+.shopping-greeting__title::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: -30px;
+    width: 464px;
+    height: 112px;
+    background-color: white;
+    z-index: -1;
+    transform: rotate(-2deg);
+}
+
+.shopping-greeting__title::after {
+    position: absolute;
+    top: 244px;
+    left: -30px;
+    content: "";
+    width: 464px;
+    height: 112px;
+    background-color: #EBD96B;
+    z-index: -1;
+    transform: rotate(-2deg);
+}
+
+
+.shopping-greeting__text {
+    font-size: 32px;
+}
+
+.shopping-greeting__btn-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.shopping-greeting__btn {
+    font-size: 30px;
+    padding: 18px 40px;
+    margin-left: 34px;
+}

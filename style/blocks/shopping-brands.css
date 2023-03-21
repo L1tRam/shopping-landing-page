@@ -1,0 +1,27 @@
+.shopping-brands {
+    margin-top: 56px;
+    background-color: #EBD96B;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+}
+
+.shopping-brands__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.shopping-brands__list-item > a > img{
+    width: 118px;
+    height: auto;
+    transition: .4s;
+}
+
+.shopping-brands__list-item > a > img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+@import url(./libs/fonts.css);
+@import url(./common/btn.css);
+@import url(./common/list-item-text.css);
+@import url(./blocks/shopping.css);
+@import url(./blocks/header.css);
+@import url(./blocks/shopping-greeting.css);
+@import url(./blocks/shopping-brands.css);
+@import url(./blocks/shopping-new-arrivals.css);
+@import url(./blocks/shopping-sale.css);
+@import url(./blocks/shopping-favourite.css);
+@import url(./blocks/shopping-mobile-app.css);
+@import url(./blocks/footer-promo.css);
+@import url(./blocks/footer-contacts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}

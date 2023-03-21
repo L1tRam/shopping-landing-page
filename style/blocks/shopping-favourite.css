@@ -1,0 +1,37 @@
+.shopping-favourite {
+    margin: auto;
+    margin-top: 190px;
+    width: 80%;
+}
+
+.shopping-favourite__title {
+    position: relative;
+    width: fit-content;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+}
+
+.shopping-favourite__title::after {
+    content: url(/assets/images/promo-vector.svg);
+    position: absolute;
+    top: 18px;
+    right: 12px;
+    z-index: -1;
+}
+
+.shopping-favourite__list {
+    margin-top: 70px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.shopping-favourite__list-item {
+    width: 50%;
+}
+
+.shopping-favourite__list-item > img{
+    width: 100%;
+}
