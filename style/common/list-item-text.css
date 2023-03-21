@@ -1,0 +1,28 @@
+.shopping__list-item-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shopping__list-item-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shopping__list-item-name {
+    font-size: 32px;
+    font-weight: 450;
+}
+
+.shopping__list-item-link {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 24px;
+}
+
+.shopping__arrow {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 36px;
+}

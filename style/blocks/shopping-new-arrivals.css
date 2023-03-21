@@ -1,0 +1,35 @@
+.shopping-new-arrivals {
+    margin: auto;
+    margin-top: 70px;
+    width: 80%;
+}
+
+.shopping-new-arrivals__title {
+    font-size: 48px;
+    font-weight: 750;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.shopping-new-arrivals__title::after {
+    content: url(/assets/images/promo-vector.svg);
+    position: relative;
+    top: 10px;
+    left: -185px;
+    z-index: -1;
+}
+
+.shopping-new-arrivals__list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.shopping-new-arrivals__list-item {
+    width: 30%;
+    list-style: none;
+}
+
+.shopping-new-arrivals__img {
+    width: 100%;
+}

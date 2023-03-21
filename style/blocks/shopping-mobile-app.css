@@ -1,0 +1,67 @@
+.shopping-mobile-app {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.shopping-mobile-app__content {
+    width: 35%;
+}
+
+.shopping-mobile-app__title {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 150%;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.shopping-mobile-app__text {
+    color: #7C7C7C;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    font-weight: 500;
+}
+
+.shopping-mobile-app__img-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.shopping-mobile-app__img-container > img {
+    max-width: 200px;
+    min-height: 62px;
+}
+
+.shopping-mobile-app__picture-contaner {
+    width: 60%;
+    position: relative;
+    left: 15%;
+}
+
+.shopping-mobile-app__picture-contaner::before {
+    content: url(/assets/images/ellipse-large-image.png);
+    position: absolute;
+    transform: scale(0.85);
+    top: 10%;
+    left: -10%;
+    z-index: -2;
+}
+
+.shopping-mobile-app__picture-contaner::after {
+    content: url(/assets/images/ellipse-medium-image.png);
+    position: absolute;
+    transform: scale(0.85);
+    top: 16%;
+    left: -4.5%;
+    z-index: -1;
+}
+
+.shopping-mobile-app__picture-contaner > img {
+    width: 50%;
+}
