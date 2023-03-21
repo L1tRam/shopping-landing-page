@@ -9,7 +9,7 @@
 
 .shopping-greeting__promo {
     height: 794px;
-    background: url(/assets/images/promo-model-image.png) no-repeat;
+    background: url(../../assets/images/promo-model-image.png) no-repeat;
     background-size: 90%;
     background-position: 400px 100%;
 }

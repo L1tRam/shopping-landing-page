@@ -13,7 +13,7 @@
 }
 
 .shopping-favourite__title::after {
-    content: url(/assets/images/promo-vector.svg);
+    content: url(../../assets/images/promo-vector.svg);
     position: absolute;
     top: 18px;
     right: 12px;
